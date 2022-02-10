@@ -1,0 +1,8 @@
+
+# GET http://localhost:3000
+# GET http://222.191.156.120:3000/articles
+# GET http://yx.fuke.sale:3000/articles
+GET http://localhost:3000/articles
+
+# GET http://localhost:3000/articles/3
+

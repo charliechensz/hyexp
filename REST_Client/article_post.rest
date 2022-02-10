@@ -1,0 +1,23 @@
+
+post http://localhost:3000/articles HTTP/1.1
+content-type: application/json
+
+{
+  "title": "M1接近完美",
+  "content": "除了屏幕小点、内存基本够用",
+  "type":"YY",
+  "qty":"100"
+}
+
+
+
+# put http://localhost:3000/articles/18 HTTP/1.1
+# content-type: application/json
+
+# {
+#   "title": "1级球童优优",
+#   "content": "优优捡高尔夫球真棒，尤其在树丛的时候，人根本进不去。我找到球，优优再过去捡，配合棒极了。",
+#   "type":"YY",
+#   "qty":"100"
+# }
+

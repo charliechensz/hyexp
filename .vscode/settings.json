@@ -1,0 +1,34 @@
+{
+    "sqltools.connections": [
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": false
+            },
+            "previewLimit": 50,
+            "server": "192.168.100.233",
+            "port": 1433,
+            "driver": "MSSQL",
+            "name": "hy_dvlp",
+            "database": "hy_dvlp",
+            "username": "sa",
+            "password": "Hy_79518"
+        },
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": false
+            },
+            "previewLimit": 50,
+            "server": "192.168.100.2",
+            "port": 1433,
+            "driver": "MSSQL",
+            "name": "K3ERP-LAN",
+            "database": "AIS20211116134058",
+            "username": "sa",
+            "password": "HY_79518*()"
+        }
+    ]
+}

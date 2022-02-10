@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "sa",
+    "password": "HY_79518*()",
+    "database": "AIS20211116134058",
+    "host": "192.168.100.6",
+    "dialect": "mssql",
+    "define": {
+      "id": false,
+      "freezeTableName": true,
+      "createdAt": false,
+      "updatedAt": false
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
