@@ -6,9 +6,9 @@
 
 ## MS SQL Server 2016
 > Microsoft SQL Server 2017 (RTM-CU28) (KB5008084) - 14.0.3430.2 (X64)
-        Dec 17 2021 14:30:27
-        Copyright (C) 2017 Microsoft Corporation
-        Developer Edition (64-bit) on Linux (Ubuntu 16.04.7 LTS)
+Dec 17 2021 14:30:27
+Copyright (C) 2017 Microsoft Corporation
+Developer Edition (64-bit) on Linux (Ubuntu 16.04.7 LTS)
 
 ### hy erp server
 ```
@@ -23,10 +23,10 @@
 
 
 # 开发团队
-- Charlie
-- Hongjun
+## Charlie
 
-        + 22-0215， 
-        + Win10 + ssh-remote 开发模式
-        + 用 charlie 开发目录
-        + git branch ：hongjun 分支
+## Hongjun
++ 22-0215， 
++ Win10 + ssh-remote 开发模式
++ 用 charlie 开发目录
++ git branch ：hongjun 分支
