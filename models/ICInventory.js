@@ -2,9 +2,9 @@
 const {
   Model
 } = require('sequelize');
-// 出货表
+// 库存表： ICInventory 
 module.exports = (sequelize, DataTypes) => {
-  class Icstockbill extends Model {
+  class ICInventory extends Model {
     /**
      * Helper method for defining associations.
      * This method is not a part of Sequelize lifecycle.
@@ -14,14 +14,14 @@ module.exports = (sequelize, DataTypes) => {
       // define association here
     }
   }
-  Icstockbill.init({
-    FSupplyID: DataTypes.STRING,
-    FFetchAdd: DataTypes.STRING,
-    FHeadSelfB0154: DataTypes.STRING,
-    FSupplyID: DataTypes.STRING
+  ICInventory.init({
+  //字段名：  STRING-字符串， 数字-FLOAT
+    FStockID: DataTypes.STRING, // ....
+    FQty: DataTypes.FLOAT,  // 主單位、方量
+    FBal: DataTypes.FLOAT,  //  存貨餘量
   }, {
     sequelize,
-    modelName: 'Icstockbill',
+    modelName: 'ICInventory',
   });
-  return Icstockbill;
+  return ICInventory;
 };
